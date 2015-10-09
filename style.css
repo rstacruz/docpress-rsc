@@ -99,6 +99,9 @@ html .markdown-body h1 {
   font-family: source sans pro, sans-serif;
   font-weight: 300;
   color: #25a /*accent2*/;
+  margin-bottom: .6em;
+  padding-bottom: .6em;
+  border-bottom: solid 1px #eee;
 }
 
 html .markdown-body h4 {
@@ -113,6 +116,8 @@ html .markdown-body h4 {
   html .page-index .markdown-body h1 {
     padding-top: 29vh;
     padding-bottom: 29vh;
+    border-bottom: 0;
+    margin-bottom: .2em;
     font-size: 5em;
     font-family: source sans pro, sans-serif;
     font-weight: 200;
