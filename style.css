@@ -126,10 +126,14 @@ html .markdown-body h4 {
 }
 
 /*
- * Hide travis badge
+ * Hide badges (like Travis)
  */
 
 html a[href^='https://travis-ci.org'] {
+  display: none;
+}
+
+html a[href='http://git.io/col'] img {
   display: none;
 }
 
