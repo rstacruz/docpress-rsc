@@ -1,6 +1,13 @@
 # docpress-rsc
 
-Rico's docpress theme. http://ricostacruz.com/docpress-rsc/style.css
+Rico's docpress theme.
+
+```js
+/* docpress.json */
+{
+  "css": "http://ricostacruz.com/docpress-rsc/style.css"
+}
+```
 
 ## Docpress
 
