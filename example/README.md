@@ -1,6 +1,9 @@
 # onmount
+<!-- {h1:.massive-header.-with-tagline} -->
 
-Run something when a DOM element appears and when it exits.<br>
+> Run something when a DOM element appears and when it exits.
+
+Great solution for dynamic pages.<br>
 No dependencies. Legacy IE compatible. 1kb .min.gz.
 
 [![Status](https://travis-ci.org/rstacruz/onmount.svg?branch=master)](https://travis-ci.org/rstacruz/onmount "See test builds")
@@ -24,7 +27,6 @@ onmount('.push-button', function () {
 #### Polling for changes
 
 Call `$.onmount()` everytime your code changes.
-[→](/docs/idempotency.md)
 
 ```js
 $('<button class="push-button">Do something</button>')
@@ -38,7 +40,6 @@ $(".push-button").click()  //=> 'working...'
 #### jQuery integration
 
 jQuery is optional; use it to poll on popular events.
-[→](/docs/idempotency.md)
 
 ```js
 $(document).on('ready show.bs closed.bs load page:change', function () {
@@ -65,7 +66,7 @@ $.onmount() //=> 'button was removed'
 
 ## What for?
 
-Onmount is a safe, reliable, idempotent, and testable way to attach JavaScript behaviors to DOM nodes. It's great for common websites that are not Single-Page Apps. Read more on its [premise and motivation](docs/premise.md).
+Onmount is a safe, reliable, idempotent, and testable wmy to attach JavaScript behaviors to DOM nodes. It's great for common websites that are not Single-Page Apps. Read more on its [premise and motivation](docs/premise.md).
 
 [rsjs][rsjs] (Reasonable System for JavaScript Structure) is a great standard that onmount fits perfectly into.
 

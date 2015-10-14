@@ -109,7 +109,7 @@ html .markdown-body h4 {
 }
 
 /*
- * Big heading
+ * Big heading (.massive-header)
  */
 
 @media (min-width: 769px) {
@@ -130,7 +130,7 @@ html .markdown-body h4 {
   html .markdown-body h1.massive-header.-with-tagline {
     padding-top: 10vh;
     padding-bottom: 0;
-    margin-bottom: .1em;
+    margin-bottom: 0;
   }
 
   html .markdown-body h1.massive-header.-with-tagline + blockquote {
@@ -142,7 +142,7 @@ html .markdown-body h4 {
     padding-bottom: 16vh;
     font-size: 4em;
     color: #ddd;
-    padding-right: 25%;
+    padding-right: 10%;
   }
 }
 
@@ -209,4 +209,69 @@ html .toc-menu .hlink {
 html .toc-menu .link.-active,
 html .toc-menu .hlink.-active {
   box-shadow: inset -2px 0 #1abc9c /*accent*/;
+}
+
+/*
+ * Pull box (.pull-box)
+ */
+
+html .markdown-body .pull-box {
+  border-top: solid 2px #eee;
+  padding-top: 24px;
+  margin-top: 4em;
+  position: relative;
+}
+
+html .markdown-body .pull-box:after {
+  content: '';
+  display: table;
+  clear: both;
+  zoom: 1;
+}
+
+html .markdown-body .pull-box:before {
+  display: inline-block;
+  font-family: 'Ionicons';
+  content: '';
+  font-size: 32px;
+  font-weight: 400;
+  /* @include ion-icon('ios-checkmark-outline', 32px); */
+  vertical-align: middle;
+  color: #1abc9c /*accent*/;
+  margin-right: 16px;
+}
+
+html .markdown-body .pull-box a {
+  border: solid 1px #1abc9c /*accent*/;
+  border-radius: 4px;
+  padding: 5px 12px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: .05em;
+  margin-left: 16px;
+}
+
+html .markdown-body .pull-box a:hover {
+  text-decoration: none;
+  background: #1abc9c /*accent*/;
+  color: white;
+}
+
+@media (min-width: 960px) {
+  html .markdown-body .pull-box {
+    padding-right: 100px;
+    padding-left: 48px;
+  }
+
+  html .markdown-body .pull-box:before {
+    position: absolute;
+    top: 11px;
+    left: 0;
+  }
+
+  html .markdown-body .pull-box a {
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
 }
