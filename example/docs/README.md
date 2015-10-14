@@ -1,17 +1,14 @@
 # Table of contents
 
 * [onmount](/README.md)
-* [Premise](/docs/premise.md)
-* Features
+* Styles
+  * [Big H1](styles/big-h1.md)
+  * [Big H1 with tagline](styles/big-h1-with-tagline.md)
+* From onmount
+  * [Premise](/docs/premise.md)
   * [Role attributes](/docs/role.md)
   * [Cancelling](/docs/cancelling.md)
   * [Preforming cleanups](/docs/cleanup.md)
   * [Unique IDs](/docs/unique-ids.md)
   * [Idempotency](/docs/idempotency.md)
   * [Automatic observation](/docs/automatic-observation.md)
-* Testing
-  * [Testing](/docs/testing.md)
-  * [Debugging](/docs/debugging.md)
-* Integrations
-  * [With Turbolinks](/docs/turbolinks.md)
-  * [With Rails](/docs/rails.md)

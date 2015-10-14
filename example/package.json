@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Run something when a DOM element appears and when it exits.<br> No dependencies. Legacy IE compatible. 1kb .min.gz.",
+  "main": "metalsmith.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it-decorate": "0.3.1"
+  }
+}
