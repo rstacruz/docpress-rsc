@@ -46,6 +46,10 @@ html .markdown-body pre {
   background: #fafbfb;
 }
 
+html .markdown-body pre code {
+  background: transparent;
+}
+
 /*
  * Links and fonts
  */
@@ -213,6 +217,9 @@ html .toc-menu .hlink.-active {
 
 /*
  * Pull box (.pull-box)
+ *
+ *     That's great. [link →](#)
+ *     <!-- {p:.pull-box} -->
  */
 
 html .markdown-body .pull-box {
@@ -274,4 +281,55 @@ html .markdown-body .pull-box a:hover {
     right: 0;
     top: 20px;
   }
+}
+
+/*
+ * File headings.
+ *
+ *      ##### `docpress.json`
+ *      <!-- {.file-heading} -->
+ *
+ *      ```
+ *      stuff here
+ *      ```
+ */
+
+html .markdown-body .file-heading {
+  font-weight: 700;
+  font-size: .95em;
+
+  padding-bottom: 16px;
+  margin-bottom: 0;
+
+  overflow: hidden;
+  height: 1.3em;
+  box-sizing: content-box;
+  white-space: nowrap;
+}
+
+html .markdown-body .file-heading code {
+  background: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+html .markdown-body .file-heading code:before,
+html .markdown-body .file-heading code:after {
+  display: none;
+}
+
+html .markdown-body .file-heading + pre {
+  margin-top: 0;
+}
+
+html .markdown-body .file-heading:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  font-family: Ionicons;
+  font-weight: normal;
+  font-size: 16px;
+  width: 24px;
+  color: #999;
 }
