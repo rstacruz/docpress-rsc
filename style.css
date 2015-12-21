@@ -132,8 +132,7 @@ html .markdown-body h4 {
   }
 
   html .markdown-body h1.massive-header.-with-tagline {
-    font-size: 4em;
-    padding-top: 15vh;
+    padding-top: 10vh;
     padding-bottom: 0;
     margin-bottom: 0;
   }
