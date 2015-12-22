@@ -330,7 +330,8 @@ html .markdown-body .file-heading:before {
   content: "";
   font-family: Ionicons;
   font-weight: normal;
-  font-size: 16px;
-  width: 24px;
+  font-size: 167x;
+  width: 18px;
   color: #999;
+  margin-top: -1px;
 }
