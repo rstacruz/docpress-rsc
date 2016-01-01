@@ -335,3 +335,11 @@ html .markdown-body .file-heading:before {
   color: #999;
   margin-top: -1px;
 }
+
+/*
+ * No headers on tables
+ */
+
+table.no-head thead {
+  display: none;
+}
