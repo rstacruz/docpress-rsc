@@ -21,6 +21,8 @@ Docpress is a documentation website generator. See [docpress/docpress](http://do
 - [dom101](http://ricostarcuz.com/dom101)
 - [scour](http://ricostarcuz.com/scour)
 - [onmount](http://ricostarcuz.com/onmount)
+- [backbone-patterns](http://ricostacruz.com/backbone-patterns)
+- [decca](http://ricostarcuz.com/decca)
 
 ## Development
 
