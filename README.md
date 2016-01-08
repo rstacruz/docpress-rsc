@@ -17,12 +17,12 @@ Docpress is a documentation website generator. See [docpress/docpress](http://do
 
 - [rscss.io](http://rscss.io)
 - [docpress](http://docpress.github.io)
-- [rsjs](http://ricostarcuz.com/rsjs)
-- [dom101](http://ricostarcuz.com/dom101)
-- [scour](http://ricostarcuz.com/scour)
-- [onmount](http://ricostarcuz.com/onmount)
+- [rsjs](http://ricostacruz.com/rsjs)
+- [dom101](http://ricostacruz.com/dom101)
+- [scour](http://ricostacruz.com/scour)
+- [onmount](http://ricostacruz.com/onmount)
 - [backbone-patterns](http://ricostacruz.com/backbone-patterns)
-- [decca](http://ricostarcuz.com/decca)
+- [decca](http://ricostacruz.com/decca)
 
 ## Development
 
