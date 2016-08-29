@@ -92,24 +92,31 @@ html .markdown-body h4 + p {
  * Update heading styles
  */
 
-html .markdown-body h2 {
+html .markdown-body h1,
+html .markdown-body h2,
+html .markdown-body h3,
+html .markdown-body h4 {
   font-family: source sans pro, sans-serif;
   font-weight: 300;
-  font-size: 2em;
   color: #25a /*accent2*/;
 }
 
 html .markdown-body h1 {
-  font-family: source sans pro, sans-serif;
-  font-weight: 300;
-  color: #25a /*accent2*/;
   margin-bottom: .6em;
   padding-bottom: .6em;
   border-bottom: solid 1px #eee;
 }
 
+html .markdown-body h2 {
+  font-size: 2em;
+}
+
+html .markdown-body h3 {
+  font-size: 1.5em;
+}
+
 html .markdown-body h4 {
-  font-size: 1.15em;
+  font-size: 1.2em;
 }
 
 /*
